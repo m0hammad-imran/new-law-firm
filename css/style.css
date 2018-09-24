@@ -1,0 +1,1100 @@
+/*
+Author Name::
+M0hammad imran
+Email:muhammadimu19@gmail.com
+
+*/
+
+/*
+=====index==========
+1.Global css
+2.About us
+3.practicearea
+4.lawyers
+5.publication
+6.faq
+7.contact
+8.footer
+
+*/
+
+/*
+=====================
+global css start
+======================
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+body{
+
+font-family: 'Roboto', sans-serif;
+/*font-family: 'Open Sans', sans-serif;*/
+
+}
+
+section {
+    padding: 50px 0;
+}
+
+h1{
+font-size: 36px;
+
+}
+
+h2{
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: inherit;
+}
+
+p{
+font-size: 13px;
+font-weight: 600;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+
+/*
+=====================
+global css end
+======================
+*/
+
+/*
+==================
+logo section css
+===================
+*/
+
+.bg-dark {
+    background-color: #ffffff!important;
+}
+
+.fixed-top {
+    position: relative;
+}
+
+
+.logo {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    
+}
+
+.navbar a{
+	text-decoration: none;
+	color: #111111;
+	font-weight: bold;
+}
+
+.navbar a span{
+	font-weight: bold;
+	color: #e8bf5d;
+}
+.button span{
+    color: 000;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgb(23, 20, 20);
+    border-color: rgba(90, 88, 88, 0.88);
+}
+
+li.nav-item {
+    padding-bottom: 6px;
+}
+/*
+=========================
+navigation section css
+==========================
+*/
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #111111;
+    margin-right: 25px;
+    transition: all ease .5s;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: all ease .5s;
+}
+
+
+
+
+.navbar-dark .navbar-nav .nav-link:focus,
+ .navbar-dark .navbar-nav .nav-link:hover {
+     color: #111111;
+    border-bottom: 3px solid #e8bf5d;
+     transition: all ease .5s;
+}
+
+.nav-link {
+     display: inline; 
+    padding: .5rem 1rem;
+}
+
+/*
+
+
+
+/*
+==================
+hero section start
+===================
+
+*/
+section.hero{
+    padding: 0;
+}
+
+.hero{
+	background : url(../img/bg.png)no-repeat;
+	background-size: cover;
+	    background-position: center;
+    height: 600px;
+	
+
+}
+.hero-box {
+    margin-top: 40%;
+    margin-left: 17px;
+
+}
+
+.hero-head{
+    border-left: 2px solid #e8bf5d;
+    padding-left: 7%;
+    color: #fff;
+    
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.contact-btn button{
+
+	border-radius: 30px;
+    padding: 10px 32px;
+    background-color: #e8bf5d;
+    transition: all ease .5s;
+
+}
+
+.contact-btn button:hover{
+	background-color: #ffb505;
+	transition: all ease .5s;
+
+
+}
+
+/*
+========================
+hero section css end
+========================
+*/
+
+/*
+==========================
+about us section css
+=========================
+*/
+.heading-img{
+    margin-bottom: 5%;
+}
+
+.heading-img img{
+    margin-left: 1%;
+    position: relative;
+    width: 10%;
+
+
+   
+}
+
+.practice-des-2{
+    position: absolute;
+    top: 20%;
+    border-left: 2px solid #e8bf5d;
+    padding-left: 15px;
+}
+
+
+.about-heading p {
+font-size: 13px;
+    font-weight: 500;
+    color: #808080;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.practice-des-2 h3{
+
+    font-size: 24px;
+    font-weight: inherit;
+    color: #111111;
+}
+.history-head{
+    margin-top: 6%;
+}
+
+.experties{
+
+    margin-top: 6%;
+}
+
+.history-head h6{
+
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.experties-head h6{
+   text-transform: capitalize;
+    font-size: 18px;
+
+}
+
+.practice-des-2 p{
+
+font-size: 13px;
+font-weight: 600;
+font-family: 'Open Sans', sans-serif;
+line-height: 22px;
+color: #111111;
+margin-bottom: 0;
+
+}
+
+.experties-des p{
+font-size: 13px;
+font-weight: 600;
+font-family: 'Open Sans', sans-serif;
+line-height: 22px;
+
+}
+/*
+=========================
+about us section css end
+==========================
+*/
+
+
+/*
+=========================
+practice arae css start
+=========================
+
+*/
+
+.practice-area{
+
+background: url(../img/black.png) no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.practice-area-box{
+
+}
+
+.practice-img{
+    position: relative;
+}
+
+.practice-des{
+    position: absolute;
+    top: 20%;
+    border-left: 2px solid #e8bf5d;
+    padding-left: 15px;
+}
+
+.practice-des p{
+
+font-size: 13px;
+font-weight: 600;
+font-family: 'Open Sans', sans-serif;
+line-height: 22px;
+color: #fff;
+margin-bottom: 0;
+
+}
+
+.practice-des h3{
+
+    font-size: 24px;
+    font-weight: inherit;
+    color: #fff;
+}
+
+.practice-icon{
+    float: left;
+}
+
+
+.practice-detail{
+    padding-left: 20%;
+}
+
+.practice-box{
+    margin-top: 10%;
+}
+
+.practice-detail h6{
+   text-transform: capitalize;
+    font-size: 18px;
+    color: #fff;
+
+}
+
+.practice-detail p{
+font-size: 13px;
+font-weight: 600;
+font-family: 'Open Sans', sans-serif;
+line-height: 22px;
+color: #fff;
+
+}
+
+/*
+=========================
+practice arae css end
+=========================
+
+*/
+
+
+/*
+=========================
+lawyers arae css start
+=========================
+
+*/
+.lawyers-box{
+
+    margin-top: 13%;
+}
+
+.lawyers-des h5{
+
+padding-top: 25px;
+color: #111111;
+
+}
+
+.lawyers-des p{
+font-size: 13px;
+font-weight: 600;
+font-family: 'Open Sans', sans-serif;
+line-height: 10px;
+color: #b7b7b7;
+
+    
+}
+
+.lawyers-img{
+    position: relative;
+    
+
+}
+
+.overlay{
+    position: absolute;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0.6;
+     transition: all ease 0.5s;
+    overflow: hidden;
+}
+.overlay-icon {
+    position: absolute;
+    top: 30%;
+    left: 36%;
+    color: #111;
+
+   
+}
+
+.lawyers-img:hover .overlay {
+    transition: all ease 0.5s;
+    height: 40%;
+
+}
+
+
+
+.overlay-icon span{
+    padding: 6px;
+    color: #111111;
+    background-color: #808080;
+
+
+
+}
+
+.overlay-icon span:hover{
+    color: #e8bf5d;
+    cursor: pointer;
+}
+
+
+
+
+.client{
+    background: url(../img/bg-2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.client-cmnt p{
+font-size: 13px;
+font-weight: 600;
+font-family: 'Open Sans', sans-serif;
+line-height: 22px;
+color: #fff;
+}
+
+
+.client-box {
+padding-left: 39px;
+    padding-right: 31%;
+}
+.client-cmnt{
+    position: relative;
+    margin-top: 10%;
+}
+
+.client-cmnt::before{
+    font-family: FontAwesome;
+    content: '\f10d';
+    position: absolute;
+    left: -30px;
+    font-size: 21px;
+    top: -5px;
+}
+
+.client-img{
+    margin-top: 10%;
+}
+
+.client-name h6{
+   text-transform: capitalize;
+    font-size: 18px;
+    color: #fff;
+
+}
+
+.client-name p{
+ font-size: 13px;
+font-weight: 600;
+font-family: 'Open Sans', sans-serif;
+line-height: 10px;
+color: #fff;
+
+}
+
+.card-body i{
+float: right;
+color: #b7b7b7;
+
+}
+.card-body h6 {
+font-size: 13px;
+font-weight: unset;
+
+}
+
+h5.card-title {
+    line-height: 5px;
+    padding-top: 15px;
+}
+a.mleft-auto i {
+    float: left;
+    color: #111;
+    line-height: 26px;
+    padding-right: 5px;
+}
+
+a.mleft-auto{
+    font-size: 13px;
+    text-decoration: none;
+    color: #111111;
+}
+
+a.margin-auto i{
+    line-height: 26px;
+    padding-right: 5px;
+    float: left;
+    color: #111;
+}
+a.margin-auto {
+    float: right;
+        font-size: 13px;
+    text-decoration: none;
+    color: #111111;
+}
+
+.card-body p{
+    font-size: 13px;
+    color: #b7b7b7;
+    font-weight: normal;
+    line-height: 25px;
+    padding-top: 20px;
+}
+.card-body h6 span{
+    color: #b7b7b7;
+    font-style: italic;
+    font-size: 12px;
+    text-transform: capitalize;
+    padding-right: 5px;
+}
+
+.card{
+    border: none;
+    border-bottom: 2px solid #e8bf5d;
+}
+
+.card-group>.card:only-child {
+    border-radius: 0; 
+}
+
+.publication-box {
+    padding-top: 10%;
+}
+
+.mleft-auto{
+    transition: all ease .5s;
+}
+
+.mleft-auto:hover{
+    transition: all ease .5s;
+    color: #e8bf5d;
+}
+.margin-auto{
+    transition: all ease .5s;
+}
+
+.margin-auto:hover{
+    transition: all ease .5s;
+    color: #e8bf5d;
+}
+
+
+/*
+=========================
+lawyers arae css end
+=========================
+
+*/
+
+/*
+=========================
+faq arae css start
+=========================
+
+*/
+
+.faq{
+    background: url(../img/black.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+.faq-title{
+   border-bottom: 2px solid #e8bf5d; 
+   padding-bottom: 10px;
+}
+
+.faq-title a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    transition: all ease 0.5s;
+
+}
+
+.faq-title a:hover{
+   transition: all ease 0.5s;
+   color: #e8bf5d;
+}
+
+.faq-title span{
+    float: right;
+    color: #fff;
+    font-size: 10px;
+    line-height: 26px;
+}
+
+.answer{
+   
+    height: auto;
+    background-color: #e8bf5d;
+    border-radius: 5px;
+    
+}
+
+.answer-des{
+transition: all ease 0.5s;
+
+}
+.answer-des p{
+padding: 25px 51px;
+    line-height: 32px;
+    font-size: 13px;
+
+
+}
+
+.faq-detail{
+    margin-bottom: 10%;
+}
+
+.answer-des:hover{
+transition: all ease 0.5s;
+box-shadow: 0px 1px 25px rgb(232, 191, 93, .8);
+}
+
+/*
+=========================
+faq arae css end
+=========================
+
+*/
+
+
+/*
+====================
+contact us css start
+=====================
+*/
+
+.form-control:focus {
+  border-color: #ced4da;
+ box-shadow: none; 
+}
+
+.form-control {
+ 
+    padding: 0; 
+   
+     background-color: ; 
+    background-clip: none; */
+   border-bottom: 4px solid #ced4da;
+     border-radius: 0;
+     border: none; 
+   
+}
+
+.name.form-group {
+    border-bottom: 1px solid #c2c2c2;
+        width: 80%;
+}
+
+.email.form-group {
+    border-bottom: 1px solid #c2c2c2;
+        width: 80%;
+}
+
+.phone.form-group {
+    border-bottom: 1px solid #c2c2c2;
+        width: 80%;
+}
+
+.text.form-group {
+    border-bottom: 1px solid #c2c2c2;
+        width: 80%;
+
+}
+
+.contact-form {
+    background: #ffffff;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    padding: 25px 53px;
+    margin-top: 5%;
+}
+
+.contact-button button{
+    border-radius: 30px;
+    padding: 10px 32px;
+   background-color: #e8bf5d;
+    transition: all ease .5s;
+}
+
+.contact-button button:hover{
+background-color: #ffb505;
+    transition: all ease .5s;
+}
+
+textarea.form-control {
+    padding: 13px 0;
+    padding-bottom: 51px;
+}
+
+.google-map{
+    box-shadow: -24px 21px 0px rgb(232, 191, 93);
+}
+
+.google-map img{
+    width: auto;
+    height: auto;
+    
+}
+
+form {
+    margin-bottom: 10%;
+}
+
+::placeholder{
+    font-size: 12px;
+    font-style: italic;
+}
+
+/*
+======================
+contact section end
+=====================
+*/
+footer{
+    background: url(../img/footer.png)no-repeat;
+    background-size: cover;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-icon {
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.social-icon a{
+    text-decoration: none;
+    padding-right: 25px;
+    color: #fff;
+    transition: all ease 1.5s;
+}
+
+.social-icon a:hover{
+    color: #e8bf5d;
+    transition: all ease 1.5s;
+}
+
+.copyright {
+    font-size: 11px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: inline-block;
+}
+
+/*
+=====================
+footer section css
+====================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+=======================
+media query section
+=======================
+*/
+
+/*for mobile*/
+
+@media (min-width: 0) and (max-width: 500px){
+
+
+	.hero-box {
+    margin-top: 124%;
+    margin-left: 50px;
+}
+
+.contact-btn button {
+    
+    padding: 10px 22px;
+  
+    margin-left: 22%;
+    margin-bottom: 5%;
+}
+
+.hero-head h2{
+	letter-spacing: 2px;
+    font-size: 29px;
+}
+
+.hero{
+	height: auto;
+}
+
+.experties-head h6 {
+   
+    font-size: 25px;
+    text-align: center;
+}
+
+.experties-des p {
+  
+    text-align: justify;
+}
+
+.practice-detail {
+    padding-left: 26%;
+}
+
+
+.lawyers-des h5 {
+ 
+    text-align: center;
+}
+
+.lawyers-des p {
+
+    text-align: center;
+}
+
+.overlay-icon {
+
+    left: 25%;
+   
+}
+
+.client-box {
+
+    padding-right: 9%;
+}
+
+.client-cmnt p {
+
+    text-align: justify;
+}
+
+
+.client-name h6 {
+ 
+    text-align: center;
+}
+
+.client-name p {
+
+    text-align: center;
+}
+
+
+.social-icon {
+     float: none;
+     text-align: center;
+
+}
+
+.faq-detail {
+   
+    margin-top: 13%;
+}
+
+.copyright {
+
+ padding-bottom: 0;
+    padding-top: 20px;
+   display: block; 
+    text-align: center;
+}
+
+.social-icon a {
+
+    padding-right: 12px;
+   
+}
+.practice-detail h6 {
+   
+    font-size: 17px;
+    
+}
+
+
+
+
+}
+
+/*for tablet*/
+
+@media (min-width: 501px) and (max-width:768px){
+
+	.hero-box {
+    margin-top: 124%;
+    margin-left: 50px;
+}
+
+.contact-btn button {
+    
+    padding: 10px 22px;
+  
+    margin-left: 22%;
+    margin-bottom: 5%;
+}
+
+.hero-head h2{
+	letter-spacing: 2px;
+    font-size: 29px;
+}
+
+.hero{
+	height: auto;
+}
+
+
+
+.client-box {
+
+    padding-right: 9%;
+}
+
+.client-cmnt p {
+
+    text-align: justify;
+}
+
+
+.client-name h6 {
+ 
+    text-align: center;
+}
+
+.client-name p {
+
+    text-align: center;
+}
+
+.lawyers-des h5 {
+ 
+    text-align: center;
+}
+
+.lawyers-des p {
+
+    text-align: center;
+}
+
+
+.experties-head h6 {
+   
+    font-size: 25px;
+    text-align: center;
+}
+
+.experties-des p {
+  
+    text-align: justify;
+}
+
+.card-body i {
+  
+    font-size: 11px;
+}
+
+
+
+
+}
+
+
+/*for dextop*/
+
+@media (min-width: 768px) and (max-width:992px){
+
+
+.hero-box {
+    margin-top: 73%;
+    margin-left: 15%;
+}
+
+.year h4{
+    font-size: 18px;
+}
+
+.description p{
+
+    line-height: 23PX;
+}
+
+.practice-detail {
+    padding-left: 30%;
+}
+
+.overlay-icon {
+
+    left: 22%;
+
+}
+
+.card-body i {
+  
+    font-size: 11px;
+}
+
+
+
+}
+
+
+/*for large device*/
+
+@media (min-width: 992px) and (max-width:1200px){
+
+.hero-box {
+    margin-top: 53%;
+    margin-left: 6%;
+}
+
+
+.overlay-icon {
+ 
+    left: 30%;
+
+}
+
+
+
+}
+
+
+
+
